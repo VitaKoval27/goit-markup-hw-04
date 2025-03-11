@@ -287,10 +287,10 @@ ul {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.a-icon-:hover{
+.a-icon:hover{
     background-color: #31d0aa;
 }
-.a-icon-:focus{
+.a-icon:focus{
     background-color: #31d0aa;
 }
 .icon-box {
@@ -305,6 +305,13 @@ ul {
   justify-content: center;
   flex-direction: row;
   gap: 16px;
+}
+.icons-ourteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px; 
 }
 .icon{
    fill:  #f4f4fd;
